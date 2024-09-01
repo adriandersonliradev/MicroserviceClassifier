@@ -7,14 +7,12 @@ Este projeto é um microserviço para classificação automática de documentos 
 
 Certifique-se de ter o Python instalado no seu sistema (versão 3.6 ou superior). Para verificar se o Python está instalado e qual a versão, você pode executar o seguinte comando no terminal:
 
-bash
 python --version
 
 ## Configuração do Ambiente
 Clone o repositório do projeto:
-python --version
-
 git clone <URL_REPOSITORIO>
+
 cd microservice_classifier
 
 ## Crie e ative um ambiente virtual:
@@ -27,6 +25,7 @@ python -m venv venv
 No macOS/Linux:
 
 python3 -m venv venv
+
 source venv/bin/activate
 
 ## Instale todas as dependências do requirements.txt:
