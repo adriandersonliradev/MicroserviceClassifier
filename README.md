@@ -20,6 +20,7 @@ cd microservice_classifier
 ### No Windows:
 
 python -m venv venv
+
 .\venv\Scripts\activate
 
 No macOS/Linux:
