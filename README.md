@@ -33,7 +33,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ## Instalação do Tesseract OCR
-Este projeto utiliza o Tesseract OCR para extrair texto de PDFs. Você precisa instalar o Tesseract no seu sistema operacional:
+Este projeto utiliza o Tesseract OCR para extrair texto de PDFs. Você precisa instalar o Tesseract no seu sistema operacional: https://github.com/UB-Mannheim/tesseract/wiki
 
 Windows: Baixe o instalador do site oficial do Tesseract e siga as instruções de instalação.
 
