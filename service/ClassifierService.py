@@ -4,7 +4,15 @@ import pytesseract
 from model.ClassifierModel import vectorizer, logistic_model
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+import os
+
+system = os.name
+if system == 'posix':
+    url = r'/opt/homebrew/bin/tesseract'
+else:
+    url = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+pytesseract.pytesseract.tesseract_cmd = url
 
 def extrair_texto_pdf(caminho_pdf):
     texto = ""
